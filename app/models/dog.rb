@@ -3,7 +3,7 @@ class Dog
 
   @@all = []
 
-  def initialize
+  def initialize(name: nil, breed: nil, age: nil)
     @@all << self
   end
 
